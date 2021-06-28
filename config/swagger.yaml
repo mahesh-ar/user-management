@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: B2B API
+  version: 1.0.0
+  description: Open Api documentation for Restaurant Search API rest services
+servers:
+  - url: 'http://localhost:4002/'
+    description: development local run
+  - url: ''
+    description: development url
+  - url: ''
+    description: test url
+  - url: ''
+    description: stage url
+
+paths:
+
+ 
+    

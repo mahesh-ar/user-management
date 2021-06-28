@@ -1,0 +1,17 @@
+{
+    "ignore": [
+        "**/*.test.ts",
+        "**/*.mock.ts",
+        "dist",
+        "node_modules",
+        ".scannerwork",
+        "jest-report"
+    ],
+    "watch": [
+        "src",
+        "config"
+    ],
+    "exec": "node --inspect=5858 -r ./node_modules/ts-node/dist/bin ./src/server.ts",
+    "ext": "ts,js",
+    "inspect": true
+}

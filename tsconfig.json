@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictPropertyInitialization": false,
+    //"types": ["node", "reflect-metadata"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "config/config.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/test/**"
+  ]
+}
